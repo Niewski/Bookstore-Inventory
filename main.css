@@ -1,0 +1,59 @@
+/* the styles for the HTML elements */
+html {
+    background-color: rgb(192, 192, 192);
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 760px;
+    height: 1000px;
+    margin: 0 auto;
+    padding: 0 2em;
+    background-color: white;
+    border: 1px solid black;
+}
+nav ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+nav ul li {
+    padding-bottom: 1em;
+}
+section {
+    float: left;
+    width: 500px;
+}
+footer {
+    margin: 0;
+    padding-top: 1.5em;
+    clear: both;
+}
+/* the styles for the other HTML elements */
+ul {
+    margin: 0 0 1em 0;
+    padding: 0 0 0 2.5em;
+}
+li {
+    margin: 0;
+    padding: 0;
+}
+
+br {
+    clear: both;
+}
+/* ids */
+#header div {
+    position: relative;
+    border: 1px solid black;
+    padding: 10px 10px 10px 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#search-container div{
+    position: relative;
+    margin-top: 15px;
+    padding: .5em .5em .5em .5em;
+}
+
+/* classes */
